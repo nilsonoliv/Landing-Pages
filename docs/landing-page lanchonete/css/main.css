@@ -1,23 +1,5 @@
 
-.menu{
-    cursor: pointer;
-    display: none;
-}
 
-.menu .bar{
-    display: block;
-    width: 28px;
-    height: 3px;
-    border-radius: 3px;
-    background: var(--dark);
-    margin: 5px auto;
-    transition: all 0.3s;
-}
-
-.menu .bar:nth-child(1),
-.menu .bar:nth-child(3){
-    background: var(--red);
-}
 
 .home{
     width: 100%;
@@ -26,6 +8,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 10%;
+    box-sizing: border-box;
 }
 
 .home-text{
