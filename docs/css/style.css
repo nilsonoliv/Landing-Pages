@@ -1,0 +1,62 @@
+body{
+   background: radial-gradient(at 50% 10%,#ccfa5b 1%,#e6f1d2 40%, #eceff1 100%);
+   background-repeat: no-repeat;
+   height: 100vh;   
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;  
+   font-family: 'Comic Neue', cursive;
+   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   padding: 15px;
+}
+
+.title{
+    position: absolute;
+    display: flex;
+    top: 15px;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-evenly;
+    left: 0px;
+    margin: 0 10px ;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    /* width: 70%; */
+    position: absolute;
+    top: 55vh;
+    left: 0px;
+    /* height: 58vh; */
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px 15px;
+}
+.iten__list{
+    text-decoration: none;
+    color: #3e3e3d;
+    white-space: nowrap;
+    width: 40vw;
+    display: block;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    padding: 5px 8px;
+}
+
