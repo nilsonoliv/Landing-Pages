@@ -82,3 +82,26 @@ footer{
     text-align: right;    
     margin-right: 20px;    
 }
+
+@media (max-width:414px){
+    h2{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .iten__list-anchor{
+        width: auto;
+    }
+    footer{
+        height: 20px;
+        margin: 21px 0px 0px 10px;
+        text-align: start;
+    }
+    footer p{
+        font-size: 0.8rem;
+    }    
+}
