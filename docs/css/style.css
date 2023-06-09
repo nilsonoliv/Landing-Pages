@@ -4,22 +4,22 @@ body{
 
 
 main{
-   background: radial-gradient(at 50% 10%,#ccfa5b 1%,#e6f1d2 40%, #eceff1 100%);
-   background-repeat: no-repeat;
-   height: 200vh;   
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   justify-content: space-around;  
-   font-family: 'Comic Neue', cursive;
-   font-family: 'Josefin Sans', sans-serif;
-   font-family: 'Poppins', sans-serif;
-   padding: 15px;   
-   align-content: center;   
+    background: radial-gradient(at 50% 10%,#ccfa5b 1%,#e6f1d2 40%, #eceff1 100%);
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 15px 0px 15px;
+    align-content: center;
+   
 }
 
 .title{
-    /*position: absolute;*/
     display: flex;
     top: 15px;
     flex-direction: column;
@@ -42,12 +42,9 @@ h1{
 }
 
 .list{
-    display: flex;
-    /* width: 70%; */
-    /*position: absolute;*/
+    display: flex;    
     top: 55vh;
-    left: 0px;
-    /* height: 58vh; */
+    left: 0px;    
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
@@ -72,25 +69,16 @@ h1{
     padding: 5px 8px;
     transition: background-color 0.5s;
 }
-/*.iten__list:hover{
-    background-color: #ccfa5b;
-}*/
-
-
-.iten-snackBar-image{
-        display: none;
-       width: 40vw;
-    }
-
+.iten-list:hover{
+    background-color: #cdfa5b9c;
+    border-radius: 30px;
+}
 
 footer{
-    display: inline;
-    position: relative;
-    bottom: 30px;
-    left: -28px;
+    display: revert;    
+    height: 50px;    
     font-weight: 300;
     background: #eceff1;
-    text-align: right;
-    padding: 30px 0 30px 20px;
-    
+    text-align: right;    
+    margin-right: 20px;    
 }
