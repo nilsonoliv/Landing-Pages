@@ -1,0 +1,116 @@
+body{
+    background: #eceff1;
+}
+
+
+main{
+    align-items: center;
+    align-content: center;
+    background: radial-gradient(at 50% 10%,#ccfa5b 1%,#e6f1d2 40%, #eceff1 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 90vh;
+    justify-content: space-around;
+    padding: 0px 15px 0px 15px;   
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-evenly;
+    left: 0px;
+    margin: 5px 10px ;
+    top: 15px;
+    gap: 10px;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.list{
+    display: flex;    
+    flex-wrap: wrap;
+    gap: 10px 15px;
+    justify-content: center;
+    left: 0px;    
+    text-align: center;
+    top: 55vh;
+}
+.iten-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;       
+}
+
+.iten__list-anchor{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    color: #3e3e3d;
+    display: block;
+    padding: 5px 8px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    white-space: nowrap;
+    width: 40vw;
+}
+.iten-list:hover{
+    background-color: #cdfa5b69;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+footer{
+    background: #eceff1;
+    display: revert;    
+    font-weight: 300;
+    height: 50px;    
+    margin-right: 20px;    
+    text-align: right;    
+}
+
+@media (max-width:414px){
+    main{
+        height: 100vh;
+    }
+    .title{
+        gap: 10px;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 1.7rem;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .iten__list-anchor{
+        width: auto;
+    }
+    footer{
+        height: 20px;
+        margin: 21px 0px 0px 10px;
+        text-align: start;
+    }
+    footer p{
+        font-size: 0.8rem;
+    }    
+}
