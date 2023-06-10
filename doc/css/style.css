@@ -13,7 +13,7 @@ main{
     font-family: 'Comic Neue', cursive;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    height: 90vh;
+    height: 500px;
     justify-content: space-around;
     padding: 0px 15px 0px 15px;   
 }
@@ -87,9 +87,7 @@ footer{
 }
 
 @media (max-width:414px){
-    main{
-        height: 500px;
-    }
+
     .title{
         gap: 10px;
     }
