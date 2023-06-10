@@ -24,8 +24,9 @@ main{
     height: 40vh;
     justify-content: space-evenly;
     left: 0px;
-    margin: 0 10px ;
+    margin: 5px 10px ;
     top: 15px;
+    gap: 10px;
 }
 
 h2{
@@ -83,11 +84,17 @@ footer{
 }
 
 @media (max-width:414px){
+    main{
+        height: 100vh;
+    }
+    .title{
+        gap: 10px;
+    }
     h2{
         font-size: 1rem;
     }
     h1{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .list{
         flex-direction: column;
