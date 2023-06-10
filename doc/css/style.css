@@ -101,7 +101,7 @@ footer{
         flex-direction: column;
     }
     .iten__list-anchor{
-        width: auto;
+        width: 60vw;
     }
     footer{
         height: 20px;
