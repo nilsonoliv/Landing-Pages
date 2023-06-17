@@ -1,3 +1,3 @@
-TAREFAS:
-#organizar as propriedades css em ordem alfabética;
-#organizar as classes e elementos css em ordem hierarquica;
+Origem do projeto: https://www.youtube.com/watch?v=llF6vD-RljE&t=1587s
+
+Refiz do zero sem as instruções com algumas modificações.
