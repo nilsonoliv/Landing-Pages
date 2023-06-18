@@ -24,6 +24,7 @@ body{
 .navegacao{
   display: flex;
   gap: 32px;
+  
 }
 
 .navegacao__link{

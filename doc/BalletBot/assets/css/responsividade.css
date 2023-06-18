@@ -1,6 +1,22 @@
-@media (max-width:220px){
-    body{
-        background-color: #fff;
-    }
+@media (max-width:600px){
+   .cabecalho{
+    flex-direction: column;
+    gap: 15px;    
+    width: 100vw;
+    padding-bottom: 20px;
+   }
+   .cabecalho__img{    
+    align-self: flex-start;
+    width: 50px;    
+   }
+   .navegacao{
+    gap:initial;
+    width: 100vw;
+    justify-content: space-around;    
+   }
+
+   .first-section{
+    flex-direction: column;
+   }
 
 }
