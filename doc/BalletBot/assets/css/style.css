@@ -27,6 +27,21 @@ body{
   
 }
 
+.icon-menu{
+  /*height: 68px; */
+    /* width: 30px;*/
+    display: none;
+}
+
+.menu-responsivo{
+  /*background-color: #fff; */
+  border: 2.5px solid #FFF2E7;
+  border-radius: 30px;
+  width: 42px;
+  /* height: 4px; */
+  margin-bottom: 3px;
+}
+
 .navegacao__link{
   font-family: 'Sarala', sans-serif;
   color: #FFF2E7;

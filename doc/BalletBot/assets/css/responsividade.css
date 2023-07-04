@@ -8,6 +8,7 @@
    .cabecalho__img{    
     align-self: flex-start;
     width: 50px;    
+    height: auto;
    }
    .navegacao{
     gap:initial;
@@ -29,30 +30,35 @@
 
 @media (max-width:390px){
    .cabecalho{
-      
       padding: 12px 0px 12px 12px;
-      flex-wrap: wrap;
-      width: 100vw;     
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
    }
    
    .navegacao{
-     
+     display: none;
       gap: 16px;
-      overflow: scroll;
-      width: auto;
-      white-space: nowrap;
-      padding-right: 12px;
-      /*position: fixed;
-      margin:8px;
-      top: 75px;
-      right: -60px;
-      padding: 12px;*/
+    /* overflow: scroll; */
+    width: auto;
+    white-space: nowrap;
+    flex-direction: column;
+    padding-right: 12px;
+   }
+   .icon-menu{
+      display: block;
+   }
+
+   /*MAIN*/
+   .Base{
+      width: calc(100% + 24px);
    }
 
    .first-section__box{
       
    }
    .first-section__img{
-      
+      width: 90vw;
    }
 }
