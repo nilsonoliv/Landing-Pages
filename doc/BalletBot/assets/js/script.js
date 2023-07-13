@@ -12,13 +12,17 @@
 }
 
 */
+/*
+document.addEventListener('DOMContentLoaded', function(){
+    function abrirmenu(){
+        let BarraMenuAberto = document.getElementById ('.cabecalho'); 
+        console.log('ok funciona a função');
+        BarraMenuAberto.style.backgroundColor = "transparent";
+    }
+})*/
 
 function abrirmenu(){
-    let BarraMenuAberto = document.getElementById ('navegacao'); //
-
-    if (BarraMenuAberto.style.width == "0px"){
-        BarraMenuAberto.style.width = "300px"; //MUDA O WIDTH, QUE ATÉ O MOMENTO VAI ESTAR OCULTO, PARA UMA LARGURA VISÍVEL
-    }else{
-        BarraMenuAberto.style.width = "0px";
-    }
+    let BarraMenuAberto = document.getElementById ('.cabecalho'); 
+    console.log('ok funciona a função');
+    BarraMenuAberto.style.backgroundColor = "transparent";
 }

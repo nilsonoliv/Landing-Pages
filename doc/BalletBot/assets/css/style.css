@@ -15,6 +15,7 @@ body{
   align-items: center;
   justify-content: space-around;
   padding: 24px;
+  background-color: #2F2325;
 }
 
 .cabecalho__img{
