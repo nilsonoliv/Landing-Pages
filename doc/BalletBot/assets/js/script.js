@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function(){
 })*/
 
 function abrirmenu(){
-    let BarraMenuAberto = document.getElementById ('.cabecalho'); 
+    let BarraMenuAberto = document.querySelector('.cabecalho'); 
     console.log('ok funciona a função');
-    BarraMenuAberto.style.backgroundColor = "transparent";
+    BarraMenuAberto.style.padding = "200px";
 }
