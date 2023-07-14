@@ -1,58 +1,65 @@
+/***************
+** MODE TABLET**
+***************/
+
 @media (max-width:600px){
    .cabecalho{
-    flex-direction: column;
-    gap: 15px;    
-    width: 100vw;
-    padding-bottom: 20px;
+      flex-direction: column;
+      gap: 15px;    
+      padding-bottom: 20px;
+      width: 100vw;
    }
    .cabecalho__img{    
-    align-self: flex-start;
-    width: 50px;    
-    height: auto;
+      align-self: flex-start;
+      height: auto;
+      width: 50px;     
    }
    .navegacao{
-    gap:initial;
-    width: 100vw;
-    justify-content: space-around;    
+      gap:initial;
+      justify-content: space-around;    
+      width: 100vw;
    }
 
    .first-section{
-    flex-direction: column;
+      flex-direction: column;
    }
-
+   .last-section__paragrafo{
+      padding: 0px 15px 0px 10px;
+   }   
    .Base{
       padding: 12px 12px 12px 12px;
    }
 
 }
 
-
+/***************
+** MODE MOBILE**
+***************/
 
 @media (max-width:390px){
    .cabecalho{
-      padding: 12px 0px 12px 12px;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 12px 12px 12px 12px;
+      width: 100vw;
    }
    
    .navegacao{
-     display: none;
-      gap: 16px;
-    /* overflow: scroll; */
-    width: auto;
-    white-space: nowrap;
-    flex-direction: column;
-    padding-right: 12px;
+      display: none;
+      gap: 16px;    
+      flex-direction: column;
+      padding-right: 12px;
+      width: auto;
+      white-space: nowrap;
    }
    .navegacao-X{
-      display: block;
       background-color: transparent;
-      color: white;
-      font-size: 1.1rem;
       border-color: white;
       border-radius: 20px;
+      color: white;
+      display: block;
+      font-size: 1.1rem;
     }
    .icon-menu{
       display: block;
@@ -61,11 +68,7 @@
    /*MAIN*/
    .Base{
       width: calc(100% + 24px);
-   }
-
-   .first-section__box{
-      
-   }
+   }   
    .first-section__img{
       width: 90vw;
    }
